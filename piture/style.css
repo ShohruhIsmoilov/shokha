@@ -1,0 +1,28 @@
+body{
+    display: flex;
+}
+
+p span{
+    color: red;
+    font-size: 36px;
+}
+
+p span:hover{
+    cursor: pointer;
+    color: transparent;
+    transition: all 1s;
+}
+
+.seks_opa{
+    position: relative;
+    transition: all 1s;
+}
+
+.img1{
+position: absolute;
+transition: all 1s;
+}
+
+.img1:hover{
+    display: none;
+}
